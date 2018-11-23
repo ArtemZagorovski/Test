@@ -1,5 +1,9 @@
 ﻿
-
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 public void Main()
 {
     Student st1 = new Student("First", 2, new int[] { 1, 4, 3 });
@@ -13,7 +17,6 @@ public void Main()
     }
     Console.WriteLine("All students' average rating " + Counter.AverageGroupRating(stAll));
 }
-
 
 
 public class Student
