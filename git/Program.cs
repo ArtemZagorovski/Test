@@ -16,7 +16,7 @@ public void Main()
     {
         Console.WriteLine(stAll[i].GetName() + " student's average rating " + stAll[i].AverageRating());
     }
-    Console.WriteLine("All students' average rating " + Counter.AverageGroupRating(stAll));
+    Console.WriteLine("All students average rating " + Counter.AverageGroupRating(stAll));
 }
 
 
