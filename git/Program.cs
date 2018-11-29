@@ -89,7 +89,7 @@ namespace Student
     {
         static void Main(string[] args)
         {
-            Student Alisa = new Student("Alisa", "Utlik", 7, 8, 6, 7);
+            Student Alisa = new Student("Alisa", "Utlik", 10, 8, 3, 7);
             Student Artem = new Student("Artem", "Zagorovsky", 7, 8, 5, 10);
 
 	    Student Ivan = new Student("Ivan", "Star", 8, 6, 5
