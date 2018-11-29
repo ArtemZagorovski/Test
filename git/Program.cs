@@ -9,7 +9,7 @@ public void Main()
 {
     Student st1 = new Student("First", 5, new int[] { 1, 4, 5});
     Student st2 = new Student("Second", 2, new int[] { 5, 6, 4, 9 });
-    Student st4 = new Student("Four", 9, new int[] { 4, 10, 3, 8, 5 });
+    Student st4 = new Student("Four", 2, new int[] { 7, 10, 3, 8, 5 });
     Student[] stAll = new Student[] { st1, st2, st4 };
     Counter count = new Counter();
     for (int i = 0; i < stAll.Length; i++)
@@ -87,3 +87,4 @@ public class Counter
         return rating;
     }
 }
+
