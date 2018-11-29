@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 public void Main()
 {
-    Student st1 = new Student("First", 2, new int[] { 1, 4, 5});
+    Student st1 = new Student("First", 5, new int[] { 1, 4, 5});
     Student st2 = new Student("Second", 2, new int[] { 5, 6, 4, 9 });
     Student st4 = new Student("Four", 2, new int[] { 9, 10, 3, 8, 5 });
     Student[] stAll = new Student[] { st1, st2, st4 };
