@@ -13,20 +13,17 @@ namespace WebDriver
     {
         private HomePage homePage;
         private const string ErrorMessage = "Каждый младенец может путещевствовать как минимум с одним взрослым";
+
         [Test()]
         public void OneBabyOnOneAdult()
-        {
-            OpenHomePage();
-            AddTwoBabys();
-            AssertErrorsVisible();
-        }
-        private void OpenHomePage()
         {
             var homePage = new HomePage(new ChromeDriver());
             homePage.OpenHomePage();
             homePage.CloseAds();
-            this.homePage = homePage;
+            AddTwoBabys();
+            AssertErrorsVisible();
         }
+
         private void AddTwoBabys()
         {
             homePage.AddPassengers();
