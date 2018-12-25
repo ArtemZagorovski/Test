@@ -9,7 +9,6 @@
           <include name="setupTest"/>
           <include name="teardown"/>
           <include name="preventsSameFromAndToPlaces"/>
-          <include name="ableToHideReturnDateCalendarAfterOneWayChoice"/>
           <include name="allowsToPickMultipleCitiesAsDestinations"/>
           <include name="preventsInfantsWithoutAdults"/>
           <include name="preventBookingOverMaxQuantityLimit"/>
