@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [by.bsu.turkishairlines.index.TurkishAirlinesTest]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="by.bsu.turkishairlines.index.TurkishAirlinesTest">
+        <methods>
+          <include name="ableToSeparateChildrenFromAdults"/>
+          <include name="setupTest"/>
+          <include name="teardown"/>
+          <include name="preventsSameFromAndToPlaces"/>
+          <include name="allowsToPickMultipleCitiesAsDestinations"/>
+          <include name="preventsInfantsWithoutAdults"/>
+          <include name="preventBookingOverMaxQuantityLimit"/>
+          <include name="preventsZeroPassangersBooking"/>
+          <include name="asksForAccountOnBonusMilesUseRequest"/>
+          <include name="preventMoreThanOneInfantPerAdult"/>
+          <include name="warnAbounAdultPresenceOnChildTravel"/>
+        </methods>
+      </class> <!-- by.bsu.turkishairlines.index.TurkishAirlinesTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [by.bsu.turkishairlines.index.TurkishAirlinesTest] -->
