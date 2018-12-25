@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-12-25T18:23:15Z" name="by.bsu.flyuia.index.FlyUiaTest" finished-at="2018-12-25T18:24:01Z" duration-ms="45859">
+    <groups>
+    </groups>
+    <test started-at="2018-12-25T18:23:15Z" name="Command line test" finished-at="2018-12-25T18:24:01Z" duration-ms="45859">
+      <class name="by.bsu.flyuia.index.FlyUiaTest">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:by.bsu.flyuia.index.FlyUiaTest@418e7838]" started-at="2018-12-25T21:23:15Z" name="setupTest" finished-at="2018-12-25T21:23:18Z" duration-ms="2661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="ableToHideReturnDateCalendarAfterOneWayChoice()[pri:0, instance:by.bsu.flyuia.index.FlyUiaTest@418e7838]" started-at="2018-12-25T21:23:18Z" name="ableToHideReturnDateCalendarAfterOneWayChoice" finished-at="2018-12-25T21:23:21Z" duration-ms="3088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ableToHideReturnDateCalendarAfterOneWayChoice -->
+        <test-method signature="isAbleToDisplayCarRentChoice()[pri:0, instance:by.bsu.flyuia.index.FlyUiaTest@418e7838]" started-at="2018-12-25T21:23:21Z" name="isAbleToDisplayCarRentChoice" finished-at="2018-12-25T21:23:24Z" duration-ms="3324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isAbleToDisplayCarRentChoice -->
+        <test-method signature="isAbleToDisplayHandlingChoice()[pri:0, instance:by.bsu.flyuia.index.FlyUiaTest@418e7838]" started-at="2018-12-25T21:23:24Z" name="isAbleToDisplayHandlingChoice" finished-at="2018-12-25T21:23:28Z" duration-ms="3358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isAbleToDisplayHandlingChoice -->
+        <test-method signature="isAbleToDisplayHotelChoice()[pri:0, instance:by.bsu.flyuia.index.FlyUiaTest@418e7838]" started-at="2018-12-25T21:23:28Z" name="isAbleToDisplayHotelChoice" finished-at="2018-12-25T21:23:30Z" duration-ms="2665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isAbleToDisplayHotelChoice -->
+        <test-method signature="isAbleToDisplayInsuranceChoice()[pri:0, instance:by.bsu.flyuia.index.FlyUiaTest@418e7838]" started-at="2018-12-25T21:23:30Z" name="isAbleToDisplayInsuranceChoice" finished-at="2018-12-25T21:23:33Z" duration-ms="3099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isAbleToDisplayInsuranceChoice -->
+        <test-method signature="isAbleToDisplayMealChoice()[pri:0, instance:by.bsu.flyuia.index.FlyUiaTest@418e7838]" started-at="2018-12-25T21:23:33Z" name="isAbleToDisplayMealChoice" finished-at="2018-12-25T21:23:37Z" duration-ms="3673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isAbleToDisplayMealChoice -->
+        <test-method signature="isAbleToDisplayMultipleDestinationsChoice()[pri:0, instance:by.bsu.flyuia.index.FlyUiaTest@418e7838]" started-at="2018-12-25T21:23:37Z" name="isAbleToDisplayMultipleDestinationsChoice" finished-at="2018-12-25T21:23:40Z" duration-ms="3429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isAbleToDisplayMultipleDestinationsChoice -->
+        <test-method signature="preventsDirectInput()[pri:0, instance:by.bsu.flyuia.index.FlyUiaTest@418e7838]" started-at="2018-12-25T21:23:40Z" name="preventsDirectInput" finished-at="2018-12-25T21:23:43Z" duration-ms="2208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preventsDirectInput -->
+        <test-method signature="preventsEmptySearch()[pri:0, instance:by.bsu.flyuia.index.FlyUiaTest@418e7838]" started-at="2018-12-25T21:23:43Z" name="preventsEmptySearch" finished-at="2018-12-25T21:23:49Z" duration-ms="6361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preventsEmptySearch -->
+        <test-method signature="preventsInputWithSameFromTo()[pri:0, instance:by.bsu.flyuia.index.FlyUiaTest@418e7838]" started-at="2018-12-25T21:23:49Z" name="preventsInputWithSameFromTo" finished-at="2018-12-25T21:24:01Z" duration-ms="11836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preventsInputWithSameFromTo -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:by.bsu.flyuia.index.FlyUiaTest@418e7838]" started-at="2018-12-25T21:24:01Z" name="teardown" finished-at="2018-12-25T21:24:01Z" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- by.bsu.flyuia.index.FlyUiaTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- by.bsu.flyuia.index.FlyUiaTest -->
+</testng-results>

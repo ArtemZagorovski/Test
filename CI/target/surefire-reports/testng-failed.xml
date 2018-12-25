@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [by.bsu.flyuia.index.FlyUiaTest]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="by.bsu.flyuia.index.FlyUiaTest">
+        <methods>
+          <include name="isAbleToDisplayHandlingChoice"/>
+          <include name="teardown"/>
+          <include name="preventsEmptySearch"/>
+          <include name="preventsInputWithSameFromTo"/>
+          <include name="isAbleToDisplayInsuranceChoice"/>
+          <include name="ableToHideReturnDateCalendarAfterOneWayChoice"/>
+          <include name="isAbleToDisplayHotelChoice"/>
+          <include name="isAbleToDisplayMealChoice"/>
+          <include name="preventsDirectInput"/>
+          <include name="isAbleToDisplayMultipleDestinationsChoice"/>
+          <include name="isAbleToDisplayCarRentChoice"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- by.bsu.flyuia.index.FlyUiaTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [by.bsu.flyuia.index.FlyUiaTest] -->
